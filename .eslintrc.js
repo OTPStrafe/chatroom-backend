@@ -8,7 +8,7 @@ module.exports = {
 		tsconfigRootDir: __dirname,
 		sourceType: 'module',
 	},
-	ignorePatterns: ['node_modules', 'dist'],
+	ignorePatterns: ['node_modules', 'dist', 'front'],
 	extends: [
 		'@n0bodysec',
 		'eslint:recommended',
